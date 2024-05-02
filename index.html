@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario de Agregar/Eliminar</title>
+    <link rel="stylesheet" href="estilo.css">
+
+  </head>
+  <body> 
+    <header>
+        <h1>CALCULADORA INTERACTIVA</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="operaciones.html">Operaciones Básicas</a></li>
+            </ul>
+        </nav>
+    </header>
+      <div class="container">
+        <h2>Agregar</h2>
+        <form id="formulario">
+           <label for="nombre">Nombre:</label>  
+          <input type="text" id="nombre" placeholder="Nombre">
+          <button type="button" onclick="agregarElemento()">Agregar</button>
+        </form>
+        <ul id="lista"></ul>
+      </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>
+
